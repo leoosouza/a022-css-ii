@@ -1,24 +1,44 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    background-color: #778899;
   }
   
   main{
     width: 800px;
+    position: relative;
+  }
+  
+  section:nth-child(1){
+    background-color: #87cefa;
+    position: relative;
+    left: 25vw;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: relative;
+    left: 80vw;
+    text-align: center;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: relative;
+    top: 7vh;
+    height: 4vh;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+
+  button:active{
+    background-color: #fff;
+    color: #000;
   }
